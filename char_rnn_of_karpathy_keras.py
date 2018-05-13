@@ -144,5 +144,4 @@ for iteration in range(1, 5):
     # Must sleep on IPython,otherwise I/O error will be thrown when calling save_weights()
     sleep(0.1)  # https://github.com/fchollet/keras/issues/2110
     model.save_weights('Karpathy_LSTM_weights.h5', overwrite=True)
-    test(u'洛羽', 20)  
-
+test(u"我",1000)
